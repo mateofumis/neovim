@@ -20,5 +20,6 @@
   ],
   "eslint.AutoFixOnSave": true,
   "tsserver.formatOnType": true,
-  "coc.preferences.diagnostic.virtualText": true
+  "coc.preferences.diagnostic.virtualText": true,
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.6/clangd_15.0.6/bin/clangd"
 }
