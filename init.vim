@@ -2,7 +2,7 @@
 "
 call plug#begin()
 " Theme Ayu
-Plug 'ayu-theme/ayu-vim' " or other package manager
+Plug 'ayu-theme/ayu-vim'
 
 " vim-airline
 Plug 'vim-airline/vim-airline'
@@ -13,7 +13,6 @@ Plug 'ryanoasis/vim-devicons'
 
 " Better Visual Guide 
 Plug 'Yggdroot/indentLine'
-Plug 'MaxMEllon/vim-jsx-pretty'
 
 " File Explorer integrated
 Plug 'preservim/nerdtree'
@@ -21,9 +20,7 @@ Plug 'preservim/nerdtree'
 " Autocomplete
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-	let g:coc_global_extensions = ['coc-emmet','coc-css','coc-html','coc-json','coc-prettier','coc-tsserver','coc-python']
-" Plugin for C#
-Plug 'OmniSharp/omnisharp-vim'
+	let g:coc_global_extensions = ['coc-emmet','coc-css','coc-html','coc-json','coc-prettier','coc-tsserver','coc-python','coc-xml']
 
 " Formater
 Plug 'Chiel92/vim-autoformat'
@@ -91,8 +88,8 @@ let g:coc_disable_startup_warning = 1
 inoremap <silent><expr> <TAB>
       \ coc#pum#visible() ? coc#pum#confirm():
       \ coc#refresh()
+
 " fix vim timeoutlen for ESC key
 :set ttimeoutlen=0 timeoutlen=0
 
-let g:OmniSharp_server_use_mono = 1
 let g:syntastic_python_python_exec = 'python'
