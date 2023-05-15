@@ -1,8 +1,10 @@
 ## ⭐ _Neovim like a little IDE_ ⭐
+---
 
 ## Requisitos
 
 * Nodejs
+* **vim-plug** (https://github.com/junegunn/vim-plug)
 
 ## Instalación
 
